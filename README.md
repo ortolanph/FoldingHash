@@ -1,0 +1,2 @@
+# FoldingHash
+Folding hash implementation
