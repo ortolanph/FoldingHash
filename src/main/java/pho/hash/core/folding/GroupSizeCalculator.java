@@ -7,9 +7,11 @@ public enum GroupSizeCalculator {
     DOUBLES(s -> 2),
     TRIPLETS(s -> 3),
     AUTO(s -> {
-        if(s % 2 == 0) return 2;
-        if(s % 3 == 0) return 3;
-        if(s % 3 == 2) return 3;
+        int mod2 = s % 2;
+        int mod3 = s % 3;
+        if(mod3 == 0) return 3;
+        if(mod2 == 0) return 2;
+        if(mod3 > mod2) return 3;
         return 2;
     });
 

@@ -1,0 +1,35 @@
+@startuml
+
+package pho.hash.core {
+    interface Hasher {
+        + calculateHash()
+    }
+
+    package folding {
+        class FoldingHash {
+            + calculateHash()
+        }
+
+        enum GroupSizeCalculator {
+            + DOUBLES
+            + TRIPLETS
+            + AUTO
+            - calculator
+            + calculate(size)
+        }
+
+        class GroupIterator {
+            - source
+            - groupSize
+            + hasNext()
+            + next()
+        }
+    }
+}
+
+Hasher <|-- FoldingHash
+
+FoldingHash -- GroupSizeCalculator
+FoldingHash -- GroupIterator
+
+@enduml
