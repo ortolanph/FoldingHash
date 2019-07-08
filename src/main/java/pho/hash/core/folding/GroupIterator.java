@@ -6,6 +6,7 @@ public class GroupIterator implements Iterator<Integer> {
 
     private String source;
     private int groupSize;
+    private int offset;
 
     public GroupIterator(String source, int groupSize) {
         this.source = source;
@@ -14,7 +15,7 @@ public class GroupIterator implements Iterator<Integer> {
 
     @Override
     public boolean hasNext() {
-        return false;
+        return offset < source.length();
     }
 
     @Override

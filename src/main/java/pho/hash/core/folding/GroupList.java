@@ -1,13 +1,15 @@
-package pho.hash.core.folding:
-
-import java.util.Iterable;
+package pho.hash.core.folding;
 
 public class GroupList implements Iterable<Integer> {
 
-    public GroupList(String)
+    private Iterator groupIterator;
+
+    public GroupList(String source, int groupSize) {
+        groupIterator = new GroupIterator(source, groupSize);
+    }
 
     @Override
     public Iterator<Integer> iterartor() {
-        return null;
+        return groupIterator;
     }
 }
