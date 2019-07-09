@@ -18,8 +18,7 @@ public class Sandbox {
 
         nicknames.put(employee, "Jack");
 
-        nicknames.get(employee)
-
+        nicknames.get(employee);
 
     }
 
