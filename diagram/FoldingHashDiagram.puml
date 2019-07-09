@@ -18,6 +18,10 @@ package pho.hash.core {
             + calculate(size)
         }
 
+        class GroupList {
+            public iterator()
+        }
+
         class GroupIterator {
             - source
             - groupSize
@@ -30,6 +34,8 @@ package pho.hash.core {
 Hasher <|-- FoldingHash
 
 FoldingHash -- GroupSizeCalculator
-FoldingHash -- GroupIterator
+FoldingHash -- GroupList
+GroupList -- GroupIterator
+
 
 @enduml
