@@ -8,18 +8,18 @@ import java.util.stream.StreamSupport;
 
 public class FoldingHash implements Hasher {
 
-    private GroupSizeCalculator groupSizeCalculator;
+    private GroupSize groupSize;
 
     private static final Integer BASE = 10;
     private static final Integer POWER = 5;
 
-    public FoldingHash(GroupSizeCalculator groupSizeCalculator) {
-        this.groupSizeCalculator = groupSizeCalculator;
+    public FoldingHash(GroupSize groupSize) {
+        this.groupSize = groupSize;
     }
 
     @Override
     public int calculateHash(String string) {
-        GroupList numberList = new GroupList(string, groupSizeCalculator);
+        GroupList numberList = new GroupList(string, groupSize);
         List<Integer> numbers = StreamSupport.stream(numberList.spliterator(), false).collect(Collectors.toList());
         Integer sum = numbers.stream().reduce((x, y) -> x + y).get();
 

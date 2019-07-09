@@ -19,7 +19,7 @@ class FoldingHashTest {
 
     @Test
     public void sample1GroupSize2() {
-        Hasher hasher = new FoldingHash(GroupSizeCalculator.DOUBLES);
+        Hasher hasher = new FoldingHash(GroupSize.TWO);
 
         int expected = 65;
         int actual = hasher.calculateHash(SAMPLE_1);
@@ -29,7 +29,7 @@ class FoldingHashTest {
 
     @Test
     public void sample2GroupSize2() {
-        Hasher hasher = new FoldingHash(GroupSizeCalculator.DOUBLES);
+        Hasher hasher = new FoldingHash(GroupSize.TWO);
 
         int expected = 6566;
         int actual = hasher.calculateHash(SAMPLE_2);
@@ -39,7 +39,7 @@ class FoldingHashTest {
 
     @Test
     public void sample3GroupSize3() {
-        Hasher hasher = new FoldingHash(GroupSizeCalculator.TRIPLETS);
+        Hasher hasher = new FoldingHash(GroupSize.THREE);
 
         int expected = 56667;
         int actual = hasher.calculateHash(SAMPLE_3);
@@ -49,7 +49,7 @@ class FoldingHashTest {
 
     @Test
     public void sample3GroupSize2() {
-        Hasher hasher = new FoldingHash(GroupSizeCalculator.DOUBLES);
+        Hasher hasher = new FoldingHash(GroupSize.TWO);
 
         int expected = 6633;
         int actual = hasher.calculateHash(SAMPLE_3);

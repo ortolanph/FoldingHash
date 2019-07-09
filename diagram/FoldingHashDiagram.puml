@@ -10,9 +10,9 @@ package pho.hash.core {
             + calculateHash()
         }
 
-        enum GroupSizeCalculator {
-            + DOUBLES
-            + TRIPLETS
+        enum GroupSize {
+            + TWO
+            + THREE
             + AUTO
             - calculator
             + calculate(size)
@@ -33,7 +33,7 @@ package pho.hash.core {
 
 Hasher <|-- FoldingHash
 
-FoldingHash -- GroupSizeCalculator
+FoldingHash -- GroupSize
 FoldingHash -- GroupList
 GroupList -- GroupIterator
 

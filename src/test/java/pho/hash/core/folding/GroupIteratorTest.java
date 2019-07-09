@@ -22,7 +22,7 @@ public class GroupIteratorTest {
 
     @Test
     public void sample1GroupSize2() {
-        GroupList groupList = new GroupList(SAMPLE_1, GroupSizeCalculator.DOUBLES);
+        GroupList groupList = new GroupList(SAMPLE_1, GroupSize.TWO);
 
         List<Integer> expected = List.of(65);
         List<Integer> actual = createList(groupList);
@@ -33,7 +33,7 @@ public class GroupIteratorTest {
 
     @Test
     public void sample2GroupSize2() {
-        GroupList groupList = new GroupList(SAMPLE_2, GroupSizeCalculator.DOUBLES);
+        GroupList groupList = new GroupList(SAMPLE_2, GroupSize.TWO);
 
         List<Integer> expected = List.of(6566);
         List<Integer> actual = createList(groupList);
@@ -43,7 +43,7 @@ public class GroupIteratorTest {
 
     @Test
     public void sample3GroupSize3() {
-        GroupList groupList = new GroupList(SAMPLE_3, GroupSizeCalculator.TRIPLETS);
+        GroupList groupList = new GroupList(SAMPLE_3, GroupSize.THREE);
 
         List<Integer> expected = List.of(656667);
         List<Integer> actual = createList(groupList);
@@ -53,7 +53,7 @@ public class GroupIteratorTest {
 
     @Test
     public void sample3GroupSize2() {
-        GroupList groupList = new GroupList(SAMPLE_3, GroupSizeCalculator.DOUBLES);
+        GroupList groupList = new GroupList(SAMPLE_3, GroupSize.TWO);
 
         List<Integer> expected = List.of(6566,67);
         List<Integer> actual = createList(groupList);
@@ -63,7 +63,7 @@ public class GroupIteratorTest {
 
     @Test
     public void sample4GroupSize2() {
-        GroupList groupList = new GroupList(SAMPLE_4, GroupSizeCalculator.DOUBLES);
+        GroupList groupList = new GroupList(SAMPLE_4, GroupSize.TWO);
 
         List<Integer> expected = List.of(6566,6768);
         List<Integer> actual = createList(groupList);
@@ -73,7 +73,7 @@ public class GroupIteratorTest {
 
     @Test
     public void sample5GroupSize3() {
-        GroupList groupList = new GroupList(SAMPLE_5, GroupSizeCalculator.TRIPLETS);
+        GroupList groupList = new GroupList(SAMPLE_5, GroupSize.THREE);
 
         List<Integer> expected = List.of(656667,6869);
         List<Integer> actual = createList(groupList);
@@ -83,7 +83,7 @@ public class GroupIteratorTest {
 
     @Test
     public void sample6GroupSize3() {
-        GroupList groupList = new GroupList(SAMPLE_6, GroupSizeCalculator.TRIPLETS);
+        GroupList groupList = new GroupList(SAMPLE_6, GroupSize.THREE);
 
         List<Integer> expected = List.of(656667,686970);
         List<Integer> actual = createList(groupList);
@@ -93,7 +93,7 @@ public class GroupIteratorTest {
 
     @Test
     public void sample7GroupSize2() {
-        GroupList groupList = new GroupList(SAMPLE_7, GroupSizeCalculator.DOUBLES);
+        GroupList groupList = new GroupList(SAMPLE_7, GroupSize.TWO);
 
         List<Integer> expected = List.of(6566,6768,6970,71);
         List<Integer> actual = createList(groupList);
@@ -103,7 +103,7 @@ public class GroupIteratorTest {
 
     @Test
     public void sample7GroupSize3() {
-        GroupList groupList = new GroupList(SAMPLE_7, GroupSizeCalculator.TRIPLETS);
+        GroupList groupList = new GroupList(SAMPLE_7, GroupSize.THREE);
 
         List<Integer> expected = List.of(656667,686970,71);
         List<Integer> actual = createList(groupList);
@@ -113,7 +113,7 @@ public class GroupIteratorTest {
 
     @Test
     public void sample8GroupSize2() {
-        GroupList groupList = new GroupList(SAMPLE_8, GroupSizeCalculator.DOUBLES);
+        GroupList groupList = new GroupList(SAMPLE_8, GroupSize.TWO);
 
         List<Integer> expected = List.of(6566,6768,6970,7172);
         List<Integer> actual = createList(groupList);
@@ -123,7 +123,7 @@ public class GroupIteratorTest {
 
     @Test
     public void sample9GroupSizeAuto() {
-        GroupList groupList = new GroupList(SAMPLE_9, GroupSizeCalculator.AUTO);
+        GroupList groupList = new GroupList(SAMPLE_9, GroupSize.AUTO);
 
         List<Integer> expected = List.of(656667,686970,717273);
         List<Integer> actual = createList(groupList);
@@ -133,7 +133,7 @@ public class GroupIteratorTest {
 
     @Test
     public void sample9GroupSize3() {
-        GroupList groupList = new GroupList(SAMPLE_9, GroupSizeCalculator.TRIPLETS);
+        GroupList groupList = new GroupList(SAMPLE_9, GroupSize.THREE);
 
         List<Integer> expected = List.of(656667,686970,717273);
         List<Integer> actual = createList(groupList);
@@ -143,7 +143,7 @@ public class GroupIteratorTest {
 
     @Test
     public void sample9GroupSize2() {
-        GroupList groupList = new GroupList(SAMPLE_9, GroupSizeCalculator.DOUBLES);
+        GroupList groupList = new GroupList(SAMPLE_9, GroupSize.TWO);
 
         List<Integer> expected = List.of(6566,6768,6970,7172,73);
         List<Integer> actual = createList(groupList);

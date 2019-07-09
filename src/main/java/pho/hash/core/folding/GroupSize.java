@@ -2,10 +2,10 @@ package pho.hash.core.folding;
 
 import java.util.function.Function;
 
-public enum GroupSizeCalculator {
+public enum GroupSize {
 
-    DOUBLES(s -> 2),
-    TRIPLETS(s -> 3),
+    TWO(s -> 2),
+    THREE(s -> 3),
     AUTO(s -> {
         int mod2 = s % 2;
         int mod3 = s % 3;
@@ -17,7 +17,7 @@ public enum GroupSizeCalculator {
 
     private Function<Integer, Integer> calculator;
 
-    GroupSizeCalculator(Function<Integer, Integer> calculator) {
+    GroupSize(Function<Integer, Integer> calculator) {
         this.calculator = calculator;
     }
 

@@ -6,7 +6,7 @@ public class GroupList implements Iterable<Integer> {
 
     private Iterator groupIterator;
 
-    public GroupList(String source, GroupSizeCalculator groupSize) {
+    public GroupList(String source, GroupSize groupSize) {
         groupIterator = new GroupIterator(source, groupSize.calculate(source.length()));
     }
 
