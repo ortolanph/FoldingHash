@@ -1,25 +1,16 @@
 package pho.hash.example;
 
-import java.time.LocalDate;
-import java.util.HashMap;
-import java.util.Map;
+import pho.hash.core.Hasher;
+import pho.hash.core.folding.FoldingHash;
+import pho.hash.core.folding.GroupSize;
 
 public class Sandbox {
 
     public static void main(String[] args) {
-        Employee employee = new Employee();
+        Hasher hasher = new FoldingHash(GroupSize.AUTO);
 
-        employee.id = 1;
-        employee.serialNumber = "ACME0001";
-        employee.name = "John Doe";
-        employee.startDate = LocalDate.now();
-
-        Map<Employee, String> nicknames = new HashMap<>();
-
-        nicknames.put(employee, "Jack");
-
-        nicknames.get(employee);
-
+        System.out.println(hasher.calculateHash("hello"));
+        System.out.println(hasher.calculateHash("light"));
     }
 
 }
