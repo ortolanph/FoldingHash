@@ -1,0 +1,93 @@
+15
+2 words with 1 characters
+34 words with 2 characters
+174 words with 3 characters
+502 words with 4 characters
+483 words with 5 characters
+491 words with 6 characters
+445 words with 7 characters
+308 words with 8 characters
+226 words with 9 characters
+165 words with 10 characters
+93 words with 11 characters
+39 words with 12 characters
+25 words with 13 characters
+12 words with 14 characters
+1 words with 16 characters
+------------------------------------------------------------------------------------
+2252
+4 words with the same hash [formal, normal, solar, moral]
+4 words with the same hash [rain, grain, brain, train]
+4 words with the same hash [news, dress, assure, press]
+4 words with the same hash [gun, run, sun, fun]
+5 words with the same hash [but, cut, nut, put, out]
+7 words with the same hash [stupid, pound, wound, found, round, sound, shrug]
+5 words with the same hash [steel, relate, fish, unlike, smell]
+4 words with the same hash [middle, field, yield, speed]
+6 words with the same hash [core, score, brick, trick, joke, home]
+4 words with the same hash [tear, peer, enough, circle]
+4 words with the same hash [agent, best, title, little]
+5 words with the same hash [die, tie, lie, ie, pie]
+5 words with the same hash [fit, hit, it, bit, sit]
+
+9 words with the same hash [light, might, night, sight, hello, right, tight, fight, eight]
+
+5 words with the same hash [search, reach, beach, teach, each]
+4 words with the same hash [lean, load, handle, clean]
+
+9 words with the same hash [bet, set, get, wet, jet, yet, let, net, pet]
+
+5 words with the same hash [badly, gift, loan, weight, height]
+5 words with the same hash [barely, partly, rarely, hardly, early]
+7 words with the same hash [love, note, tone, glove, rope, loose, stone]
+4 words with the same hash [mouse, course, pure, house]
+4 words with the same hash [slow, port, prompt, sport]
+4 words with the same hash [notion, unit, motion, cotton]
+4 words with the same hash [alone, link, shore, hero]
+4 words with the same hash [shirt, bright, client, quiet]
+4 words with the same hash [works, know, user, versus]
+4 words with the same hash [bite, pride, ride, shine]
+4 words with the same hash [such, rough, dirt, tough]
+4 words with the same hash [patch, watch, match, catch]
+4 words with the same hash [cook, porch, folk, source]
+4 words with the same hash [within, civil, action, crop]
+6 words with the same hash [finger, winner, singer, winter, detail, dinner]
+4 words with the same hash [margin, gender, center, vital]
+4 words with the same hash [better, meter, letter, basis]
+5 words with the same hash [square, route, north, forth, worth]
+6 words with the same hash [mouth, south, fourth, onto, push, youth]
+5 words with the same hash [phrase, nerve, origin, serve, derive]
+5 words with the same hash [chest, would, could, bottle, credit]
+4 words with the same hash [couple, double, menu, look]
+5 words with the same hash [allow, amount, ghost, host, profit]
+5 words with the same hash [mad, ad, bad, dad, sad]
+5 words with the same hash [can, fan, man, pan, ban]
+5 words with the same hash [tap, cap, gap, lap, map]
+5 words with the same hash [bar, car, far, ear, war]
+5 words with the same hash [at, cat, fat, eat, hat]
+7 words with the same hash [may, lay, pay, say, day, gay, way]
+4 words with the same hash [side, aside, like, cite]
+4 words with the same hash [lot, not, pot, hot]
+5 words with the same hash [how, low, now, cow, row]
+5 words with the same hash [driver, advise, severe, writer, ethics]
+4 words with the same hash [gold, belong, road, broad]
+4 words with the same hash [depend, pick, scope, cope]
+4 words with the same hash [treat, nature, anger, great]
+5 words with the same hash [annual, lock, block, huge, clock]
+5 words with the same hash [dispute, wealthy, ceremony, organization, anything]
+4 words with the same hash [nine, white, pile, five]
+5 words with the same hash [quick, cookie, above, smoke, hope]
+4 words with the same hash [pilot, minor, iron, wisdom]
+5 words with the same hash [knife, fine, tribe, raise, while]
+7 words with the same hash [wander, metal, cancer, garden, German, manner, danger]
+5 words with the same hash [career, relax, repeat, farmer, sexual]
+
+9 words with the same hash [market, later, rather, father, latter, gather, matter, water, target]
+
+4 words with the same hash [flight, slight, wooden, born]
+4 words with the same hash [senior, person, hotel, wonder]
+5 words with the same hash [burn, below, adopt, fellow, yellow]
+6 words with the same hash [border, terror, corner, oven, worker, former]
+5 words with the same hash [mother, forget, bother, star, voter]
+5 words with the same hash [cover, over, holy, lover, dozen]
+4 words with the same hash [lower, powder, power, tower]
